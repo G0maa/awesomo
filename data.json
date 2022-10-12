@@ -36,6 +36,12 @@
         "description": "DescriptionZ",
         "url": "https://github.com/user/repository",
         "image_url": "https://example.org/example.png"
+      },
+      {
+        "name": "Another Project",
+        "description": "Another Description",
+        "url": "https://github.com/user/repository",
+        "image_url": "https://example.org/example.png"
       }
     ]
   }

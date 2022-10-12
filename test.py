@@ -43,7 +43,8 @@ def main():
                 cur_letter = project['name'][0]
                 lines.append(f'## {cur_letter}\n\n')
 
-            lines.extend([f"[**{project['name']}({project['url']})**]",
+            # note the added space...
+            lines.extend([f"[**{project['name']}({project['url']})**] ",
                           f"{project['description']}\n\n"])
 
             if "image_url" in project:
