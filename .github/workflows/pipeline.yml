@@ -1,0 +1,31 @@
+name: createLanguagesFolder
+
+# Bug: Will always run, even on non `data.json` changes
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches: [master]
+    types: [opened, synchronize]
+
+jobs:
+  runs-on: ubuntu-20.04
+  steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-python@v4
+    with:
+      python-version: '3.10'
+    - name: Delete Languages folder
+      run: rm -rf languages
+    - name: Create Languages folder
+      run: mkdir languages
+    - name: run Python script
+      run: python test.py
+    - uses: EndBug/add-and-commit@v9
+      with:
+        add: 'languages'
+        default_author: github_actor # test this
+        message: 'Pipeline: Updated Languages' # Probably needs to be more descriptive
+        push: true
+
