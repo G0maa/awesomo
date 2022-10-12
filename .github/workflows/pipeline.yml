@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - master
+      - testing-script # delete this
   pull_request:
     branches: [master]
     types: [opened, synchronize]
