@@ -12,13 +12,13 @@
 
 ## A
 
-[**AProject 2(https://github.com/user/repository)**]Description 2
+[**AProject 2**](https://github.com/user/repository) Description 2
 
 ![AProject 2](https://example.org/example.png)
 
 ---
 
-[**AProject 3(https://github.com/user/repository)**]Description 3
+[**AProject 3**](https://github.com/user/repository) Description 3
 
 ![AProject 3](https://example.org/example.png)
 
@@ -26,7 +26,7 @@
 
 ## Z
 
-[**ZProject(https://github.com/user/repository)**]Description
+[**ZProject**](https://github.com/user/repository) Description
 
 ![ZProject](https://example.org/example.png)
 

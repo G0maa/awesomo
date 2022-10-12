@@ -10,9 +10,17 @@
 
 <br>
 
+## A
+
+[**Another Project**](https://github.com/user/repository) Another Description
+
+![Another Project](https://example.org/example.png)
+
+---
+
 ## P
 
-[**Project(https://github.com/user/repository)**]Description
+[**Project**](https://github.com/user/repository) Description
 
 ![Project](https://example.org/example.png)
 
@@ -20,7 +28,7 @@
 
 ## Z
 
-[**ZProject(https://github.com/user/repository)**]DescriptionZ
+[**ZProject**](https://github.com/user/repository) DescriptionZ
 
 ![ZProject](https://example.org/example.png)
 
